@@ -1,0 +1,60 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowDialCodeChange": true,
+  "allowFormatting": true,
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 48,
+  "boxShadow": "none",
+  "defaultDialCode": "+91",
+  "defaultText": "",
+  "displayName": "Phone Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.108789d7165de30306435ab3c24e6cad.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "kvbyab7uzo",
+  "label": "",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onTextChanged": "{{storeValue('whatsapp',PhoneInput1Copy.dialCode + PhoneInput1Copy.value)}}",
+  "parentColumnSpace": 17.9375,
+  "parentId": "hq7pg9cu3y",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 63,
+  "searchTags": [
+    "call"
+  ],
+  "topRow": 44,
+  "type": "PHONE_INPUT_WIDGET",
+  "version": 1,
+  "widgetId": "trvjwsr845",
+  "widgetName": "PhoneInput1Copy"
+}

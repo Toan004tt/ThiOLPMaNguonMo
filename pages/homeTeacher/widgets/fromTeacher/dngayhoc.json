@@ -1,0 +1,62 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 22,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "nyg6fhqf1k",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Ngày học:",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 3,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 14,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 7,
+  "needsErrorInfo": false,
+  "optionLabel": "value",
+  "optionValue": "label",
+  "parentColumnSpace": 6.4140625,
+  "parentId": "gki451pyng",
+  "parentRowSpace": 10,
+  "placeholderText": "Chọn ngày học",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 59,
+  "serverSideFiltering": false,
+  "sourceData": "{{Find_tblClassSchehules1.data.map( (obj) =>{ return  {'label': obj.idClass, 'value': obj.dStudy } })}}",
+  "topRow": 15,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "s5f8vv7x0f",
+  "widgetName": "dngayhoc"
+}

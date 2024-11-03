@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67258d89b40638709ecf2f80_5adbab55-22da-4806-8670-62f1a6e06ea1",
+  "id": "LoginPag_checkuserName",
+  "unpublishedCollection": {
+    "name": "checkuserName",
+    "pageId": "LoginPag",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
